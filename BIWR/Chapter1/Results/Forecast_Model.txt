@@ -1,0 +1,35 @@
+
+Forecast method: ETS(A,N,A)
+
+Model Information:
+ETS(A,N,A) 
+
+Call:
+ ets(y = object, lambda = lambda, biasadj = biasadj, allow.multiplicative.trend = allow.multiplicative.trend) 
+
+  Smoothing parameters:
+    alpha = 1e-04 
+    gamma = 1e-04 
+
+  Initial states:
+    l = 795.397 
+    s = 273.8946 160.5406 55.933 -83.047 -363.849 -289.463
+           -136.473 -28.7765 -45.1494 109.1746 61.3016 285.9134
+
+  sigma:  81.9362
+
+     AIC     AICc      BIC 
+594.7704 610.7704 622.2001 
+
+Error measures:
+                     ME     RMSE      MAE       MPE     MAPE      MASE        ACF1
+Training set -0.5795833 68.33953 50.80274 -2.001101 8.592966 0.6039979 -0.06515413
+
+Forecasts:
+         Point Forecast    Lo 80     Hi 80    Lo 95     Hi 95
+Nov 2010       955.9317 850.9262 1060.9372 795.3397 1116.5237
+Dec 2010      1069.2836 964.2781 1174.2891 908.6916 1229.8756
+Jan 2011      1081.3129 976.3074 1186.3183 920.7208 1241.9049
+Feb 2011       856.7104 751.7049  961.7158 696.1183 1017.3024
+Mar 2011       904.5714 799.5659 1009.5769 743.9794 1065.1634
+Apr 2011       750.2417 645.2362  855.2472 589.6496  910.8337
